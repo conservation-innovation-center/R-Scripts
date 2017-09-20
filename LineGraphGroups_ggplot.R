@@ -37,5 +37,6 @@ ggplot(data=imp, aes(x=year, y=PCD, group = Method, linetype= Method, color= Met
   theme(axis.title = element_text(face = "bold", color = "black", size = 28), #format text of axis titles
         axis.text.x = element_text(color= "black", size = 18, margin=margin(b=20)), #format text of axis labels. margin controls spacing from axis
         axis.text.y = element_text(color="black", size = 22, margin=margin(l=10)), #format text of axis labels. margin controls spacing from axis
-        legend.text = element_text(size = 20), legend.title = element_text(face = "bold", size = 26), #format legend text
+        legend.text = element_text(size = 20), #format legend text
+        legend.title = element_text(face = "bold", size = 26), #format legend title
         legend.key.size = unit(1.75, 'lines')) #format line spacing in legend
